@@ -65,3 +65,17 @@ These results demonstrate the nonlinear nature of traffic systems and the existe
 ---
 
 ## Project Structure
+traffic-flow-project/
+│
+├── simulation.py      # Visual simulation of traffic dynamics
+├── analysis.py        # Data generation and graph plotting
+├── traffic_flow.png   # Generated flow vs density graph
+├── README.md          # Project documentation
+
+## Conclusion
+This project demonstrates how complex traffic phenomena such as congestion and shockwaves can emerge from simple local interactions. By combining simulation with quantitative analysis, it provides insight into the underlying dynamics of traffic systems and their connection to broader concepts in physics and engineering.
+
+---
+
+## Author
+Ekampreet Singh
