@@ -41,9 +41,15 @@ This project explores how macroscopic traffic patterns arise from microscopic ru
 
 ---
 
-## Results
 
-The analysis produces the fundamental diagram of traffic flow:
+## Key Insights
+
+- The system exhibits a nonlinear relationship between traffic density and flow.
+- A critical density exists beyond which traffic flow collapses rapidly.
+- Small perturbations (random braking) lead to the formation of backward-propagating congestion waves.
+- The model demonstrates emergent behavior, where simple local rules produce complex global patterns.
+
+These observations align with known principles in traffic flow theory and statistical physics.
 
 ![Traffic Flow Graph](traffic_flow.png)
 
@@ -71,6 +77,14 @@ traffic-flow-project/
 ├── analysis.py        # Data generation and graph plotting
 ├── traffic_flow.png   # Generated flow vs density graph
 ├── README.md          # Project documentation
+
+
+## Research Direction
+
+This project is an initial step toward understanding traffic as a complex system. 
+Future work can connect this model to concepts in nonlinear dynamics, fluid flow, and statistical mechanics.
+
+
 
 ## Conclusion
 This project demonstrates how complex traffic phenomena such as congestion and shockwaves can emerge from simple local interactions. By combining simulation with quantitative analysis, it provides insight into the underlying dynamics of traffic systems and their connection to broader concepts in physics and engineering.
